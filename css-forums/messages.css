@@ -1,0 +1,74 @@
+
+/**End of product section **/
+.empty{
+padding:1.5rem;
+text-align: center;
+border-radius: 5px;
+font-size: 2rem;
+background-color: powderblue;
+
+}
+/** Nofications css* */
+.notification {
+background-color: powderblue;
+color: black;
+text-decoration: none;
+padding: 2px 20px;
+position: relative;
+display: inline-block;
+border-radius: 2px;
+}
+
+.notification .badge {
+position: absolute;
+top: -9px;
+right: -0px;
+padding: 4px 7px;
+border-radius: 50%;
+background-color: red;
+color: white;
+}
+
+/** Collapse div content **/
+.collapsible{
+background-color: white;
+cursor: pointer;
+padding: 18px;
+width: 100%;
+border: 1px solid powderblue;
+text-align: left;
+outline: none;
+border-radius: 3px;
+font-size: 15px;
+}
+
+.active, .collapsible:hover {
+background-color: powderblue;
+color: black;
+}
+
+.collapsible:after {
+content: '\002B';
+color: black;
+font-weight: bold;
+float: right;
+margin-left: 5px;
+}
+
+.active:after {
+content: "\2212";
+color: white;
+}
+
+
+.content {
+max-height: 0;
+margin-top: 2px;
+overflow: hidden;
+transition: max-height 0.2s ease-out;
+background-color: white;
+border: 1px solid powderblue;
+border-radius: 2px;
+width: 100%;
+float: left;
+} 

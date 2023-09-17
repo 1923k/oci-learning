@@ -1,0 +1,119 @@
+:root{
+   --purple:#8e44ad;
+   --red:#c0392b;
+   --orange:#f39c12;
+   --black:#333;
+   --white:#fff;
+   --light-color:#666;
+   --light-white:#ccc;
+   --light-bg:#f5f5f5;
+}
+
+*{
+   font-family: 'Rubik', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   transition:all .2s linear;
+}
+.message{
+   position: sticky;
+   top:0;
+   margin:0 auto;
+   max-width: 1200px;
+   background-color: #204594;
+   padding:1rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   z-index: 10000;
+   gap:1.5rem;
+}
+
+.message span{
+   font-size: 1.3rem;
+   color: white;
+}
+
+.message i{
+   cursor: pointer;
+   color: white;
+   font-size: 1.5rem;
+}
+
+.message i:hover{
+   transform: rotate(90deg);
+}
+
+
+.form-container{
+   min-height: 100vh;
+   background-color: var(--light-bg);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:2rem;
+ 
+}
+
+.form-container form{
+   padding:2rem;
+   width: 40rem;
+   border-radius: .3rem;
+   box-shadow: var(--box-shadow);
+   border: 1px solid powderblue;
+   background-color: var(--white);
+   text-align: center;
+}
+
+.form-container form h3{
+   font-size: 1.5rem;
+   margin-bottom: 1rem;
+   text-transform: uppercase;
+   color:var(--black);
+}
+
+.form-container form .box{
+   width: 100%;
+   border-radius: 0.3rem;
+   background-color: var(--light-bg);
+   padding:0.7rem 1.0rem;
+   font-size: 1.2rem;
+   color:var(--black);
+   border: 1px solid powderblue;
+   margin:1rem 0;
+}
+
+.form-container form p{
+   padding-top: 1.5rem;
+   font-size: 1rem;
+   color:var(--black);
+}
+
+.form-container form p a{
+   color:var(--purple);
+}
+
+.form-container form p a:hover{
+   text-decoration: underline;
+}
+
+.btn{
+   display: inline-block;
+   margin-top: 1rem;
+   padding:0.5rem 1.9rem;
+   cursor: pointer;
+   color:var(--white);
+   font-size: 1rem;
+   border-radius: .5rem;
+   text-transform: capitalize;
+}
+
+.btn:hover{
+   background-color: green;
+}
+
+.btn{
+   background-color: var(--purple);
+}
